@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.name).setText("Michelle Townsend")
 
         with(findViewById<TextView>(R.id.email)) {
-            text = "mt@ourcompany.com"
+            setText(R.string.email)
             setTextColor(Color.BLUE)
         }
 
@@ -33,14 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(
-                arrayOf(
-                    "Kate Sacloff",
-                    "Andrew Klein",
-                    "Maria Ortega",
-                    "Brent Stevenson",
-                    "Daniel Cho",
-                    "Jorge Gomez"
-                )
+                resources.getStringArray(R.array.names)
             )
             layoutManager = LinearLayoutManager(this@MainActivity)
         }
