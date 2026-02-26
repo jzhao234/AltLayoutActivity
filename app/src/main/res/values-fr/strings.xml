@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FancyScreen</string>
+    <string name="app_name">Écran fantaisie</string>
 
     <string name="name"> Michelle Townsend </string>
 
@@ -9,13 +9,13 @@
     <string name="extensionHeader"> Extension </string>
     <string name="extension"> 2253 </string>
 
-    <string name="departmentHeader"> Department </string>
-    <string name="department"> Design </string>
+    <string name="departmentHeader"> Département </string>
+    <string name="department"> Conception </string>
 
-    <string name="supervisorHeader"> Supervisor </string>
+    <string name="supervisorHeader"> Superviseur </string>
     <string name="supervisor"> Fail Davers </string>
 
-    <string name="directReportsHeader"> Direct Reports </string>
+    <string name="directReportsHeader"> Rapports directs </string>
     <string-array name="directReports">
         <item> Kate Sacloff </item>
         <item> Andrew Klein </item>
